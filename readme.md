@@ -33,40 +33,40 @@ The [dataset](https://archive.ics.uci.edu/dataset/488/facebook+live+sellers+in+t
 </table>
 
 -   **Total Interactions by Post Type**: Video content emerged as the clear engagement leader, generating the highest overall interaction volumes across the platform. Comment activity concentrated predominantly on video posts, while photos attracted the greatest number of reactions. Users demonstrated a strong preference for sharing video content over all other post formats, with sharing activity almost exclusively focused on this content type. Conversely, link posts consistently underperformed, generating the lowest interaction levels across all metrics.
-</br>
+
 - **Average Interactions per Post**: Video content maintained its dominance in generating average comments per post, reinforcing its effectiveness for fostering discussion and user engagement. However, status updates achieved the highest average reaction rates, while photos received the fewest reactions per post. Link posts continued to underperform significantly in average comment generation. Sharing behavior remained consistent with overall trends, with users demonstrating a clear preference for redistributing video content.
 
-![Average reactions by post type](images/avg_reaction_heatmap.png)
+<p align="center">
+  <img src="images/avg_reaction_heatmap.png" width="800">
+</p>
+
 - **Average reactions** *(Likes, Loves, Wows, Hahas, Sads, Angry)*
-    </br>
+
     -   The emotional response patterns reveal distinct user behavior across content types. Link posts generated exclusively positive sentiment, showing no negative emotional reactions whatsoever. In contrast, video content attracted the highest volume of negative responses, consistently displaying above-average levels of both angry and sad reactions compared to other content formats.
-    </br>
     -   Positive engagement patterns showed likes dominating across all post types, representing the most frequent user response regardless of content format. Status updates and links demonstrated particularly strong like engagement rates. Among negative reactions, sad responses emerged as the most common across the platform, suggesting users are more likely to express empathy than anger when responding negatively to content.
-    </br>
 
 **2. Time-Based Metrics**
-
-![alt text](images/posting_pattern.png)
-![alt text](images/post_pattern_by_postType.png)
+<p align="center">
+  <img src="images/posting_pattern.png" width="800">
+  <img src="images/post_pattern_by_postType.png" width="800">
+</p>
 
 -   **Patterns for posting**: 
-    </br>
     -   **Daily Posting Pattern**: Seller activity exhibited pronounced temporal clustering with two distinct peak periods: late night (1-2 AM) and early morning (7-9 AM). During these windows, nearly all sellers maintained active posting schedules. Activity levels dropped dramatically during afternoon hours, with fewer than 10 posts recorded across the entire seller base.
-    </br>
     -   Content type significantly influenced these temporal patterns. Photo and video posts closely mirrored overall activity trends, concentrating heavily within the late-night and early-morning peak windows. Link and status posts demonstrated markedly different behavior, maintaining relatively consistent posting frequency throughout the day with minimal temporal variation.
-    </br>
-![alt text](images/DOW_posting_pattern.png)
-    </br>
-    -   **Weekly Activity Pattern**: Analysis of day-of-week posting behavior revealed no statistically significant variations across the seven-day cycle. This consistency suggests that seller activity responds primarily to daily routine patterns rather than traditional weekly business cycles or consumer shopping patterns.
+
+  <p align="center">
+    <img src="images/DOW_posting_pattern.png" width="800">
+  </p>
+
+  
+  -   **Weekly Activity Pattern**: Analysis of day-of-week posting behavior revealed no statistically significant variations across the seven-day cycle. This consistency suggests that seller activity responds primarily to daily routine patterns rather than traditional weekly business cycles or consumer shopping patterns.
 
 ## Summary of Insights
 
 1. **Video Content Dominates User Engagement**: Videos consistently outperform all other content types, generating the highest levels of interactions, comments, and shares. This finding indicates that Thai fashion and cosmetics retailers should prioritize video content as their primary engagement strategy to maximize audience reach and interaction.
-</br>
 2. **Strategic Content Differentiation**: Each post format fulfills specific engagement objectives: videos excel across nearly all engagement metrics, status updates generate the strongest positive emotional responses, and photos provide broad appeal with moderate interaction levels. Link posts significantly underperform across all measures, suggesting minimal strategic value for these retailers.
-</br>
 3. **Untapped Timing Opportunities in Content Distribution**: The concentrated posting activity during late-night and early-morning hours, coupled with minimal afternoon engagement, reveals a strategic gap. This pattern suggests either strong audience availability during off-peak hours or missed opportunities to reach customers during less competitive afternoon time slots.
-</br>
 4. **Daily Routine-Driven Patterns**: The consistent daily posting patterns without weekly variations indicate that seller activity aligns with daily routines and immediate audience availability rather than traditional business cycles. This behavior pattern aligns logically with the lifestyle nature of fashion and cosmetics products, where purchase decisions often occur spontaneously rather than following planned shopping cycles.
 
 ## Conclusions and Recommendations
